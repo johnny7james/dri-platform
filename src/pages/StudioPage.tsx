@@ -489,8 +489,11 @@ ${project.sources || "No sources recorded."}
               <span>DRI-OPS</span>
             </div>
 
-            <section>
-              <strong>DRI</strong>
+            <section className="studioHeroEmblemPanel">
+              <img
+                src="/brand/dri-circle-emblem.png"
+                alt="DRI Research Studio emblem"
+              />
               <p>Research Studio</p>
             </section>
 
