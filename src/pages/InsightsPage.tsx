@@ -186,14 +186,11 @@ function InsightsPage() {
     <div className="siteShell insightsPage">
       <header className="siteHeader">
         <Link className="brand" to="/" aria-label="Dietz Research Institute">
-          <span className="brandMark">
-            <span>DR</span>
-          </span>
-
-          <span className="brandText">
-            <strong>Dietz Research</strong>
-            <span>Institute</span>
-          </span>
+          <img
+            className="brandLogoImage"
+            src="/brand/DRI_Primary_Logo.png"
+            alt="Dietz Research Institute"
+          />
         </Link>
 
         <nav className="mainNavigation" aria-label="Main navigation">

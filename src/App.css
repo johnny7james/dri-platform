@@ -7869,3 +7869,353 @@ a {
 .studioBoardActions button:nth-child(4) {
   color: var(--gold);
 }
+
+
+/* OFFICIAL DRI PNG BRANDING */
+
+.brand {
+  min-width: 250px;
+}
+
+.brandLogoImage {
+  width: 275px;
+  max-width: 34vw;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.siteHeader {
+  border-bottom-color: rgba(141, 184, 223, 0.18);
+}
+
+.subscribeButton {
+  border-color: rgba(141, 184, 223, 0.34);
+}
+
+@media (max-width: 760px) {
+  .brand {
+    min-width: 0;
+  }
+
+  .brandLogoImage {
+    width: 210px;
+    max-width: 60vw;
+  }
+}
+
+@media (max-width: 520px) {
+  .brandLogoImage {
+    width: 170px;
+  }
+}
+
+
+/* OFFICIAL DRI FOOTER BRANDING */
+
+.footerBrandSymbolImage {
+  width: 64px;
+  height: 64px;
+  display: block;
+  object-fit: contain;
+}
+
+.footerBrand .brandMark {
+  display: none;
+}
+
+
+/* OFFICIAL DRI COLOR SYSTEM: DEEP NAVY + PLATINUM + ELECTRIC BLUE */
+
+:root {
+  --obsidian: #020713;
+  --obsidian-soft: #06111f;
+  --steel: #0b1a2d;
+  --steel-light: #132942;
+  --blue: #3fa7ff;
+  --blue-bright: #83d4ff;
+  --ivory: #f5f7fa;
+  --silver: #c7d0db;
+  --muted: #7f8fa3;
+  --gold: #b8c1cc;
+  --border: rgba(199, 208, 219, 0.17);
+}
+
+html,
+body {
+  background: #020713;
+}
+
+body {
+  color: var(--ivory);
+}
+
+.siteShell {
+  background:
+    radial-gradient(
+      circle at 82% 16%,
+      rgba(63, 167, 255, 0.13),
+      transparent 34rem
+    ),
+    radial-gradient(
+      circle at 18% 80%,
+      rgba(131, 212, 255, 0.055),
+      transparent 31rem
+    ),
+    linear-gradient(
+      180deg,
+      #06111f 0%,
+      #020713 42%,
+      #020713 100%
+    );
+  color: var(--ivory);
+}
+
+.siteHeader {
+  border-bottom: 1px solid rgba(199, 208, 219, 0.16);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(2, 7, 19, 0.92),
+      rgba(2, 7, 19, 0.58)
+    );
+}
+
+.mainNavigation a {
+  color: var(--muted);
+}
+
+.mainNavigation a:hover,
+.mainNavigation .activeNav {
+  color: var(--blue-bright);
+}
+
+.mainNavigation .activeNav::after {
+  background: var(--blue-bright);
+  box-shadow: 0 0 18px rgba(131, 212, 255, 0.38);
+}
+
+.eyebrow {
+  color: var(--blue-bright);
+}
+
+.subscribeButton,
+.primaryButton,
+.secondaryButton,
+button {
+  border-color: rgba(131, 212, 255, 0.28);
+}
+
+.subscribeButton:hover,
+.primaryButton:hover,
+.secondaryButton:hover {
+  border-color: rgba(131, 212, 255, 0.68);
+  box-shadow: 0 0 24px rgba(63, 167, 255, 0.12);
+}
+
+.hero,
+.studioHero,
+.pageHero,
+.researchHero,
+.reportHero,
+.divisionsHero,
+.insightsHero,
+.aboutHero,
+.searchHero,
+.savedLibraryHero,
+.subscribeHero {
+  background:
+    radial-gradient(
+      circle at 82% 22%,
+      rgba(63, 167, 255, 0.15),
+      transparent 34rem
+    ),
+    linear-gradient(
+      180deg,
+      rgba(6, 17, 31, 0.86),
+      rgba(2, 7, 19, 0)
+    );
+}
+
+.hero h1 span,
+.studioHeroCopy h1 span {
+  color: var(--blue-bright);
+}
+
+.featuredReportCard,
+.researchCard,
+.reportCard,
+.divisionCard,
+.insightCard,
+.savedLibraryCard,
+.searchResultCard,
+.studioHeroPanel,
+.studioProjectCard,
+.studioStageColumn,
+.studioAttentionCard,
+.studioProjectDetailPanel,
+.createStudioProjectForm,
+.subscriptionPanel {
+  border-color: rgba(199, 208, 219, 0.16);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(11, 26, 45, 0.72),
+      rgba(6, 17, 31, 0.72)
+    );
+}
+
+input,
+select,
+textarea {
+  border-color: rgba(199, 208, 219, 0.18);
+  background: rgba(2, 7, 19, 0.78);
+  color: var(--ivory);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: rgba(131, 212, 255, 0.62);
+  box-shadow: 0 0 0 3px rgba(63, 167, 255, 0.09);
+}
+
+.studioProgressBar span,
+.progressBar span {
+  background: linear-gradient(90deg, #3fa7ff, #83d4ff);
+  box-shadow: 0 0 16px rgba(131, 212, 255, 0.36);
+}
+
+.studioDueStatus.isOnTrack,
+.studioProjectCard footer strong,
+.studioCardActions button,
+.studioBoardFilters button,
+.studioAttentionCard button {
+  color: var(--blue-bright);
+}
+
+.footer,
+.siteFooter {
+  border-top-color: rgba(199, 208, 219, 0.16);
+  background: #020713;
+}
+
+
+/* DRI ABOUT EMBLEM IMAGE */
+
+.aboutInstitutionSeal {
+  display: grid;
+  place-items: center;
+}
+
+.aboutInstitutionSeal img {
+  width: min(310px, 78vw);
+  height: auto;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 0 30px rgba(63, 167, 255, 0.16));
+}
+
+.aboutInstitutionSeal strong,
+.aboutInstitutionSeal span {
+  display: none;
+}
+
+
+/* DRI ABOUT IDENTITY EMBLEM */
+
+.aboutIdentityMarkImage {
+  border: 0;
+  background: transparent;
+}
+
+.aboutIdentityMarkImage img {
+  width: min(390px, 82vw);
+  height: auto;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 0 34px rgba(63, 167, 255, 0.18));
+}
+
+/* DRI ABOUT IDENTITY PANEL ALIGNMENT FIX */
+
+.aboutHeroIdentity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutIdentityMarkImage {
+  width: 100%;
+  min-height: 290px;
+  margin: 0 auto 34px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  background: transparent;
+}
+
+.aboutIdentityMarkImage img {
+  width: 305px;
+  max-width: 74vw;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  transform: translateY(8px);
+  filter: drop-shadow(0 0 34px rgba(63, 167, 255, 0.2));
+}
+
+.aboutIdentityDetails {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .aboutIdentityMarkImage {
+    min-height: 250px;
+    margin-bottom: 28px;
+  }
+
+  .aboutIdentityMarkImage img {
+    width: 260px;
+  }
+}
+
+/* DRI ABOUT IDENTITY FINAL BALANCE */
+
+.aboutHeroIdentity {
+  min-height: 620px;
+  justify-content: center;
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+
+.aboutIdentityMarkImage {
+  min-height: 330px;
+  margin-bottom: 18px;
+}
+
+.aboutIdentityMarkImage img {
+  width: 380px;
+  max-width: 82vw;
+  transform: translateY(0);
+}
+
+.aboutIdentityDetails {
+  margin-top: 0;
+}
+
+@media (max-width: 700px) {
+  .aboutHeroIdentity {
+    min-height: auto;
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+
+  .aboutIdentityMarkImage {
+    min-height: 280px;
+  }
+
+  .aboutIdentityMarkImage img {
+    width: 305px;
+  }
+}

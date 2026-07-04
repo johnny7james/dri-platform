@@ -81,14 +81,11 @@ function App() {
     <div className="siteShell">
       <header className="siteHeader">
         <a className="brand" href="#top" aria-label="Dietz Research Institute">
-          <span className="brandMark">
-            <span>DR</span>
-          </span>
-
-          <span className="brandText">
-            <strong>Dietz Research</strong>
-            <span>Institute</span>
-          </span>
+          <img
+            className="brandLogoImage"
+            src="/brand/DRI_Primary_Logo.png"
+            alt="Dietz Research Institute"
+          />
         </a>
 
         <nav className="mainNavigation" aria-label="Main navigation">
